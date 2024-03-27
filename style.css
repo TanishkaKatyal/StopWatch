@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #edeaff; 
+}
+
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) , url(background.png); 
+    border-radius: 5px;  
+    background-size: cover;
+    background-position: center;
+    text-align: center ; 
+    padding: 40px 0;
+    color: #fff;
+    margin: 200px auto 200px;   
+    box-shadow: 0 10px 10px rgba(0,0,0,0.8); 
+}
+
+.stopwatch h1{
+    margin-top: 60px; 
+    font-size: 64px; 
+    font-weight: 300; 
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons img {
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer; 
+    margin-top: 50px;  
+}
+
+.buttons img :nth-child(2) {
+    width: 80px; 
+
+}
+
